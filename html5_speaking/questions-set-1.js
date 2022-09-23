@@ -18,14 +18,9 @@ seperator = '##';
 //    第三欄為圖片檔的路徑
 //
 questionLines = function(){/*--這一行請勿更改--
-dog##小狗
-cat##貓
-cow##牛
-mouse##老鼠
-chicken##雞
-monkey##猴子
-tiger##老虎
-goat##羊
-horse##馬
-hippo##河馬
+sunny##晴朗的
+windy##有風的
+rainy##下雨的
+snowy##下雪的
+cloudy##多雲的
 -----*/}.toString().replace(/\r/g,"").slice("function(){/*--這一行請勿更改--".length+1,-9);
